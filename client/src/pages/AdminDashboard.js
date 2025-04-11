@@ -108,37 +108,6 @@ const StyledTabs = styled(Tabs)(({ theme }) => ({
   }
 }));
 
-const StyledDialogTitle = styled(DialogTitle)(({ theme }) => ({
-  backgroundColor: '#1a237e',
-  color: '#ffffff',
-  fontSize: '1.25rem',
-  fontWeight: 600,
-}));
-
-const StyledDialogContent = styled(DialogContent)(({ theme }) => ({
-  padding: theme.spacing(3),
-  '& p': {
-    marginBottom: theme.spacing(2),
-  }
-}));
-
-const StyledDialogActions = styled(DialogActions)(({ theme }) => ({
-  padding: theme.spacing(2, 3),
-  backgroundColor: '#f5f5f5',
-}));
-
-const StyledActionButton = styled(Button)(({ theme, color }) => ({
-  textTransform: 'none',
-  fontWeight: 600,
-  padding: theme.spacing(1, 3),
-  borderRadius: '25px',
-  backgroundColor: color === 'error' ? '#ef5350' : '#1a237e',
-  color: '#ffffff',
-  '&:hover': {
-    backgroundColor: color === 'error' ? '#e53935' : '#0d47a1',
-  }
-}));
-
 const BlogPreviewContainer = styled('div')`
   .blog-content {
     max-width: 800px;
